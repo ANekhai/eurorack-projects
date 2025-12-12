@@ -11,6 +11,12 @@ File,19
   "Pattern" : "Strip"
 },
 "CelledOutlines" : [
+  { "Name" : "BOX1_2", "Locked" : true,
+    "Rows" : [
+    [{"Pin" : "1"}],
+    [{"Pin" : "2"}]
+    ]
+  },
   { "Name" : "BOX1_3", "Locked" : true,
     "Rows" : [
     [{"Pin" : "1"}],
@@ -53,7 +59,7 @@ File,19
     ["Body","Body","Body","Body","Body"],
     ["Free","Body","Body","Body","Free"],
     ["Free","Body","Body","Body","Free"],
-    ["Free",{"Pin" : "3"},{"Pin" : "2"},{"Pin" : "1"},"Free"]
+    ["Free",{"Pin" : "1"},{"Pin" : "2"},{"Pin" : "3"},"Free"]
     ]
   },
   { "Name" : "POT6_5", "Locked" : true,
@@ -63,7 +69,7 @@ File,19
     ["Free","Body","Body","Body","Free"],
     ["Body","Body","Body","Body","Body"],
     ["Body","Body","Body","Body","Body"],
-    ["Body",{"Pin" : "3"},{"Pin" : "2"},{"Pin" : "1"},"Body"]
+    ["Body",{"Pin" : "1"},{"Pin" : "2"},{"Pin" : "3"},"Body"]
     ]
   },
   { "Name" : "SW3", "Locked" : true,
@@ -127,9 +133,14 @@ File,19
 "SmdOutlines" : [
 ],
 "Components" : [
-  { "Designator" : "BOX1_3", "Value" : "", "Outline" : "BOX1_3",
+  { "Designator" : "BOX1_2", "Value" : "", "Outline" : "BOX1_2",
   "X1000" : 26000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
-  "Text" : { "X" : 1, "Y" : 3, "Angle" : 0, "Visible" : true },
+  "Text" : { "X" : 0, "Y" : 2, "Angle" : 0, "Visible" : true },
+  "Group" : 0
+  },
+  { "Designator" : "BOX1_3", "Value" : "", "Outline" : "BOX1_3",
+  "X1000" : 28000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 3, "Angle" : 0, "Visible" : true },
   "Group" : 0
   },
   { "Designator" : "HEAD5_2", "Value" : "", "Outline" : "HEAD5_2",
@@ -159,21 +170,21 @@ File,19
   },
   { "Designator" : "SW8", "Value" : "", "Outline" : "SW8",
   "X1000" : 5000, "Y1000" : 14000, "EndDeltaX" : 0, "EndDeltaY" : 1,
-  "Text" : { "X" : 3, "Y" : 8, "Angle" : 0, "Visible" : true },
+  "Text" : { "X" : 3, "Y" : 7, "Angle" : 0, "Visible" : true },
   "Group" : 0
   },
   { "Designator" : "THONK", "Value" : "", "Outline" : "THONK",
   "X1000" : 10000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
-  "Text" : { "X" : 1, "Y" : 6, "Angle" : 0, "Visible" : true },
+  "Text" : { "X" : 1, "Y" : 5, "Angle" : 0, "Visible" : true },
   "Group" : 0
   },
   { "Designator" : "TO92_2", "Value" : "", "Outline" : "TO92_2",
-  "X1000" : 30000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
-  "Text" : { "X" : 1, "Y" : 3, "Angle" : 0, "Visible" : true },
+  "X1000" : 32000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "Text" : { "X" : 0, "Y" : 3, "Angle" : 0, "Visible" : true },
   "Group" : 0
   },
   { "Designator" : "TRIM3_3", "Value" : "", "Outline" : "TRIM3_3",
-  "X1000" : 34000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
+  "X1000" : 35000, "Y1000" : 0, "EndDeltaX" : 0, "EndDeltaY" : 1,
   "Text" : { "X" : 1, "Y" : 3, "Angle" : 0, "Visible" : true },
   "Group" : 0
   }

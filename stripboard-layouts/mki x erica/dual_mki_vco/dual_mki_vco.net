@@ -1,0 +1,771 @@
+( { EESchema Netlist Version 1.1 created  2025-12-11T17:32:22-0500 }
+ ( /00cb7bac-25d4-4664-bdc5-d68006a2be36 THONK  J5 FM_CV
+  (    1 GND )
+  (    2 GND )
+  (    3 Net-(J5-Pad3) )
+ )
+ ( /022e2b19-319e-4472-9b06-23c4f5012e4b DIP14  U1 TL074
+  (    1 Net-(U1A--) )
+  (    2 Net-(U1A--) )
+  (    3 Net-(U1A-+) )
+  (    4 +12V )
+  (    5 Net-(U1B-+) )
+  (    6 Net-(U1B--) )
+  (    7 Net-(R10-Pad1) )
+  (    8 Net-(R2-Pad1) )
+  (    9 Net-(U1C--) )
+  (   10 Net-(U1B-+) )
+  (   11 -12V )
+  (   12 Net-(U1D-+) )
+  (   13 Net-(U1D--) )
+  (   14 Net-(U1D--) )
+ )
+ ( /066dc8a6-e140-459a-a9fb-24323ed71f27 THONK  J4 1V/OCT
+  (    1 GND )
+  (    2 GND )
+  (    3 Net-(J4-Pad3) )
+ )
+ ( /09e31580-dbc9-403a-8feb-16bc43233352 TO92  Q1 BC558
+  (    1 Net-(Q1-Pad1) )
+  (    2 Net-(F1-Pad2) )
+  (    3 -12V )
+ )
+ ( /10d3ac27-66db-4286-8537-abf2925551f4 AX3_1  F1 NTC_10k
+  (    1 Net-(F1-Pad1) )
+  (    2 Net-(F1-Pad2) )
+ )
+ ( /141e3763-272b-4f4c-9a86-e187f236ad03 POT6_5  VR2 B100k
+  (    1 -12V )
+  (    2 Net-(R8-Pad1) )
+  (    3 +12V )
+ )
+ ( /17bb6d73-1107-4436-9821-19bda092c1ab AX3_1  R9 1M
+  (    1 Net-(R9-Pad1) )
+  (    2 Net-(F2-Pad1) )
+ )
+ ( /2986c521-198d-4597-b4fd-4752e192d3b6 AX3_1  R19 1k5
+  (    1 Net-(R19-Pad1) )
+  (    2 Net-(F1-Pad2) )
+ )
+ ( /2bf09371-fecf-4a9e-afff-531ea019a040 POT6_5  VR3 B100k
+  (    1 Net-(R14-Pad1) )
+  (    2 Net-(R9-Pad1) )
+  (    3 GND )
+ )
+ ( /44ce4982-3b57-425f-93bb-d2dd4da4185c THONK  J1 SAW
+  (    1 GND )
+  (    2 unconnected-(J1-Pad2) )
+  (    3 SAW1 )
+ )
+ ( /4659f4b3-989d-49b9-a6c7-46a589941e35 AX3_1  R10 100k
+  (    1 Net-(R10-Pad1) )
+  (    2 Net-(U1D-+) )
+ )
+ ( /4ea7492c-37f0-40b0-abc3-d6eb7abd2a78 THONK  J2 PWM_CV
+  (    1 GND )
+  (    2 GND )
+  (    3 Net-(J2-Pad3) )
+ )
+ ( /4eaa4e82-ad0a-4229-a945-106daca143ae AX3_1  R7 47k
+  (    1 GND )
+  (    2 Net-(U1C--) )
+ )
+ ( /4eef597f-7fdb-48f3-92ce-f8b8ba9c6516 AX3_1  R13 68k
+  (    1 GND )
+  (    2 Net-(U1D-+) )
+ )
+ ( /4fafdd92-244d-4b13-ad67-1f6874d4ad15 BOX1_3  C1 1u
+  (    1 Net-(U1A--) )
+  (    2 Net-(U1B-+) )
+ )
+ ( /54158c6b-f7c1-4eca-b7b9-362e7fb8a8db POT6_5  VR5 B1M
+  (    1 Net-(F1-Pad2) )
+  (    2 Net-(F1-Pad2) )
+  (    3 Net-(F4-Pad2) )
+ )
+ ( /57e93f2f-20a1-4a0e-9639-d27dbc7b98c2 TO92  Q2 BC548
+  (    1 GND )
+  (    2 Net-(Q1-Pad1) )
+  (    3 Net-(U1A-+) )
+ )
+ ( /607cafcf-a11c-43ea-a4f3-4bfeb4b3ea2b AX3_1  F3 NTC_10k
+  (    1 Net-(F3-Pad1) )
+  (    2 Net-(F1-Pad2) )
+ )
+ ( /6309c6bb-5a74-4e54-b330-32affe4b552c AX3_1  R6 33k
+  (    1 Net-(R6-Pad1) )
+  (    2 -12V )
+ )
+ ( /68972fd5-13cb-49fb-b88d-d228b0812b68 AX3_1  R15 14k
+  (    1 Net-(U1B--) )
+  (    2 GND )
+ )
+ ( /6961a251-60d5-40d1-abf7-0e89af2f6608 AX3_1  R12 1k
+  (    1 Net-(U1D--) )
+  (    2 Net-(J3-Pad3) )
+ )
+ ( /71585ef3-eb17-4bc0-bece-518107c6894f AX3_1  R18 100k
+  (    1 Net-(J5-Pad3) )
+  (    2 Net-(F4-Pad1) )
+ )
+ ( /71be69bd-1737-4514-87a0-f8b9dade4a03 AX3_1  R4 100k
+  (    1 Net-(U1B-+) )
+  (    2 GND )
+ )
+ ( /81ca53c6-533d-47e5-bb16-a92da14f8999 DIP14  U2 CD40106
+  (    1 Net-(U1A-+) )
+  (    2 Net-(D1-Pad2) )
+  (    3 GND )
+  (    4 unconnected-(U2-Pad4) )
+  (    5 GND )
+  (    6 unconnected-(U2-Pad6) )
+  (    7 GND )
+  (    8 Net-(D4-Pad2) )
+  (    9 Net-(U3A-+) )
+  (   10 unconnected-(U2-Pad10) )
+  (   11 GND )
+  (   12 unconnected-(U2-Pad12) )
+  (   13 GND )
+  (   14 +12V )
+ )
+ ( /8619d697-eaf0-46b0-9aa9-f70de68cd25f POT5_5  VR1 B100k
+  (    1 Net-(R6-Pad1) )
+  (    2 Net-(R3-Pad1) )
+  (    3 Net-(R1-Pad2) )
+ )
+ ( /8812c866-1bf7-4582-b8a2-8279d94daf71 AX3_1  R2 1k
+  (    1 Net-(R2-Pad1) )
+  (    2 SAW1 )
+ )
+ ( /8b7df46b-7114-41f2-885b-a7c7bb842ae1 AX3_1  R3 100k
+  (    1 Net-(R3-Pad1) )
+  (    2 Net-(F1-Pad1) )
+ )
+ ( /a3513714-b27f-4d70-9e70-2fd83cdef106 AX3_1  R5 100k
+  (    1 Net-(U1C--) )
+  (    2 Net-(R2-Pad1) )
+ )
+ ( /a4ed2aca-e86e-4596-8a27-669f7d0c100d TRIM6  VR6 1k
+  (    1 GND )
+  (    2 Net-(R19-Pad1) )
+  (    3 Net-(R19-Pad1) )
+ )
+ ( /b4a39944-0e90-430f-ba87-9e3cd98c710f AX3_1  R8 100k
+  (    1 Net-(R8-Pad1) )
+  (    2 Net-(U1B--) )
+ )
+ ( /bc28548c-09ce-425f-805b-d6414267495a AX3_1  R11 68k
+  (    1 Net-(R11-Pad1) )
+  (    2 Net-(U1B--) )
+ )
+ ( /c2fa9969-f6fc-4f9f-ad4b-f80b140f56be AX3_1  R16 100k
+  (    1 Net-(J4-Pad3) )
+  (    2 Net-(F3-Pad1) )
+ )
+ ( /c651e044-64b9-48ac-b747-ad959c5852ca AX3_1  F4 NTC_10k
+  (    1 Net-(F4-Pad1) )
+  (    2 Net-(F4-Pad2) )
+ )
+ ( /c8847ec9-d201-4586-955d-09aababc6a46 POT6_5  VR4 B250k
+  (    1 Net-(R11-Pad1) )
+  (    2 Net-(R11-Pad1) )
+  (    3 Net-(J2-Pad3) )
+ )
+ ( /cb5e2f60-022a-4d84-abb5-9d89c26fd218 THONK  J3 PULSE
+  (    1 GND )
+  (    2 unconnected-(J3-Pad2) )
+  (    3 Net-(J3-Pad3) )
+ )
+ ( /de0c9aa5-497b-4fa0-b9cf-dbd705d340bb AX3_1  F2 NTC_10k
+  (    1 Net-(F2-Pad1) )
+  (    2 Net-(F1-Pad2) )
+ )
+ ( /e05cad51-52d5-459c-b36a-d48018461191 AX3_1  R17 1M
+  (    1 Net-(Q1-Pad1) )
+  (    2 +12V )
+ )
+ ( /e9dc2203-ec43-45ca-a9c4-669cd25f0729 AX3_1  R1 100k
+  (    1 +12V )
+  (    2 Net-(R1-Pad2) )
+ )
+ ( /fc7cb409-9427-415b-9292-8a769f442a9d AX2_1  D1 1N4148
+  (    1 Net-(U1A-+) )
+  (    2 Net-(D1-Pad2) )
+ )
+ ( /fdebd893-eb93-43fb-a2b6-79b50760b154 BOX1_3  C2 2n2
+  (    1 Net-(U1A-+) )
+  (    2 GND )
+ )
+ ( /fe3cef20-329b-44cb-b6e6-b31c76591a16 AX3_1  R14 100k
+  (    1 Net-(R14-Pad1) )
+  (    2 -12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/1f6edab1-4725-45c4-aa05-89bb26ec8b4a RA1_2  C8 100n
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/32cf43f6-dbff-476a-8694-6ec1cce948bb RA1_2  C9 100n
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/46413e4d-a77b-4dc7-a895-c361134cf15b RA1_2  C5 100n
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/52ff71a8-b6fe-4241-b648-3c72d0f05cb4 AX3_1  R20 10
+  (    1 Net-(D2-Pad1) )
+  (    2 +12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/67168082-a6f4-4723-be88-443eabd973ed AX3_1  D2 1N5819
+  (    1 Net-(D2-Pad1) )
+  (    2 Net-(D2-Pad2) )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/701dbabe-38cc-4f1b-83dc-534955c470e5 RA1_2  C15 100n
+  (    1 GND )
+  (    2 -12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/83a0fdc5-949d-40d0-8611-b251c41cb944 RA1_2  C13 100n
+  (    1 GND )
+  (    2 -12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/84d14a00-a2b2-4aed-a901-bd01adcbdddb RA1_3  C4 47u
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/8df74234-b986-4eb3-96e9-9dd7b5655123 RA1_2  C10 100n
+  (    1 GND )
+  (    2 -12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/a96ea88d-2266-496b-a534-b92c72cb5317 RA1_2  C3 100n
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/b418e277-e13c-43f5-a359-e8a4f77aa6e5 RA1_2  C6 100n
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/c151874f-7b4e-47b0-bdbd-a645c165f3ad RA1_3  C14 47u
+  (    1 GND )
+  (    2 -12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/c64a916a-0d74-442f-a5c6-0b1379846fa9 AX3_1  R21 10
+  (    1 Net-(D3-Pad2) )
+  (    2 -12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/cad97a82-47f9-480e-a420-562a86f07b3c RA1_2  C11 100n
+  (    1 GND )
+  (    2 -12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/d4782ae4-0e55-47b7-bfa9-9586b49934a9 RA1_2  C7 100n
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/e04e3240-f15b-44b5-b36d-acd4a8d671bc AX3_1  D3 1N5819
+  (    1 Net-(D3-Pad1) )
+  (    2 Net-(D3-Pad2) )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/e0aa32cc-36b2-4393-9173-8b5deba01947 RA1_2  C12 100n
+  (    1 GND )
+  (    2 -12V )
+ )
+ ( /55835340-0cfe-433f-9a86-5d58eaee25cb/f377af94-5444-445a-a1ad-18cc897e8938 HEAD5_2  J6 CONN_10
+  (    1 Net-(D2-Pad2) )
+  (    2 Net-(D2-Pad2) )
+  (    3 GND )
+  (    4 GND )
+  (    5 GND )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 Net-(D3-Pad1) )
+  (   10 Net-(D3-Pad1) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/0835411b-0298-436d-bc72-f2c641cee177 AX3_1  R27 33k
+  (    1 Net-(R27-Pad1) )
+  (    2 -12V )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/16f94b62-be74-4fe8-ac97-92309dba76fe DIP14  U3 TL074
+  (    1 Net-(U3A--) )
+  (    2 Net-(U3A--) )
+  (    3 Net-(U3A-+) )
+  (    4 +12V )
+  (    5 Net-(U3B-+) )
+  (    6 Net-(U3B--) )
+  (    7 Net-(R31-Pad1) )
+  (    8 Net-(R23-Pad1) )
+  (    9 Net-(U3C--) )
+  (   10 Net-(U3B-+) )
+  (   11 -12V )
+  (   12 Net-(U3D-+) )
+  (   13 Net-(U3D--) )
+  (   14 Net-(U3D--) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/24770041-cc37-4fe6-b68d-f08f97a45235 AX3_1  R29 100k
+  (    1 Net-(R29-Pad1) )
+  (    2 Net-(U3B--) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/2b963352-3974-4d36-8226-ee2f8f8b9ba9 AX3_1  R26 100k
+  (    1 Net-(U3C--) )
+  (    2 Net-(R23-Pad1) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/2d72990c-2aae-48d2-9211-7c2666239752 AX3_1  F5 NTC_10k
+  (    1 Net-(F5-Pad1) )
+  (    2 Net-(F5-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/2f533678-9c0d-4e4e-a488-19139143e325 THONK  J11 FM_CV
+  (    1 GND )
+  (    2 GND )
+  (    3 Net-(J11-Pad3) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/316cbf32-8acc-4123-868a-30fdff53c956 AX3_1  R22 100k
+  (    1 +12V )
+  (    2 Net-(R22-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/3b4797e2-9a1e-4752-bfb7-b797d501d002 BOX1_3  C16 1u
+  (    1 Net-(U3A--) )
+  (    2 Net-(U3B-+) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/445d0eb2-8fcd-4c04-939f-a3df8dd25569 POT6_5  VR11 B1M
+  (    1 Net-(F5-Pad2) )
+  (    2 Net-(F5-Pad2) )
+  (    3 Net-(F8-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/44695b17-f392-400d-ae9d-30744b9c5921 AX3_1  R34 68k
+  (    1 GND )
+  (    2 Net-(U3D-+) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/4f4feb61-a51d-4c5c-8342-1adfc41d5931 THONK  J9 PULSE
+  (    1 GND )
+  (    2 unconnected-(J9-Pad2) )
+  (    3 Net-(J9-Pad3) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/54256ccb-2c1b-4d8e-ba56-e386681a0e26 AX3_1  R39 100k
+  (    1 Net-(J11-Pad3) )
+  (    2 Net-(F8-Pad1) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/60796206-d323-4f6c-889e-e2947e27163a AX3_1  R28 47k
+  (    1 GND )
+  (    2 Net-(U3C--) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/6892acad-c6f2-4d23-b94e-61fb58224379 THONK  J10 1V/OCT
+  (    1 GND )
+  (    2 GND )
+  (    3 Net-(J10-Pad3) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/6cf2b63e-bf48-45f1-a3bc-000fadbcc3fc TO92  Q3 BC558
+  (    1 Net-(Q3-Pad1) )
+  (    2 Net-(F5-Pad2) )
+  (    3 -12V )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/7665004a-f022-4eab-a875-807777531d11 AX3_1  R24 100k
+  (    1 Net-(R24-Pad1) )
+  (    2 Net-(F5-Pad1) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/76702330-154d-45a8-bf55-a492f55e00d9 AX3_1  F6 NTC_10k
+  (    1 Net-(F6-Pad1) )
+  (    2 Net-(F5-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/7b6024bf-2d99-4c85-b853-1dba80b78e92 AX2_1  D4 1N4148
+  (    1 Net-(U3A-+) )
+  (    2 Net-(D4-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/8527ad79-d92d-47a7-898c-a74430ad01f2 BOX1_3  C17 2n2
+  (    1 Net-(U3A-+) )
+  (    2 GND )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/85650018-b10c-405d-b8e0-99fe6ffcd74a POT6_5  VR8 B100k
+  (    1 -12V )
+  (    2 Net-(R29-Pad1) )
+  (    3 +12V )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/8b8bec16-b1db-4bf3-851b-a38feae3f54e TO92  Q4 BC548
+  (    1 GND )
+  (    2 Net-(Q3-Pad1) )
+  (    3 Net-(U3A-+) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/910b3e32-3da2-4f8b-91ce-a5335ca0183a THONK  J8 PWM_CV
+  (    1 GND )
+  (    2 GND )
+  (    3 Net-(J8-Pad3) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/92b00414-a7a5-4f86-a11a-3a6c1a6ad825 AX3_1  R38 1M
+  (    1 Net-(Q3-Pad1) )
+  (    2 +12V )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/9b24a4cb-ef3e-40ee-b6d5-fb5997e61b3e AX3_1  R23 1k
+  (    1 Net-(R23-Pad1) )
+  (    2 SAW2 )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/a428b498-9822-4617-8af3-669594f98ea6 AX3_1  R30 1M
+  (    1 Net-(R30-Pad1) )
+  (    2 Net-(F6-Pad1) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/a7bbd865-e2d9-440c-ba1b-00aadccaefbc POT6_5  VR9 B100k
+  (    1 Net-(R35-Pad1) )
+  (    2 Net-(R30-Pad1) )
+  (    3 GND )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/a85d772b-5d56-402f-aedd-6eae78d4b45a AX3_1  R31 100k
+  (    1 Net-(R31-Pad1) )
+  (    2 Net-(U3D-+) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/b5524f05-7868-47c6-8934-aef92f7f05fd AX3_1  F7 NTC_10k
+  (    1 Net-(F7-Pad1) )
+  (    2 Net-(F5-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/bcdfec25-7479-4e8c-abb7-fe97a92df095 AX3_1  R25 100k
+  (    1 Net-(U3B-+) )
+  (    2 GND )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/bdd18572-b9fc-4211-994f-04f2a5a86b80 AX3_1  R37 100k
+  (    1 Net-(J10-Pad3) )
+  (    2 Net-(F7-Pad1) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/bfc2e45c-cd3b-45e3-b7c1-ce64e11d58ac AX3_1  F8 NTC_10k
+  (    1 Net-(F8-Pad1) )
+  (    2 Net-(F8-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/c03dba8c-5408-43db-bc85-185214fa0e08 AX3_1  R36 14k
+  (    1 Net-(U3B--) )
+  (    2 GND )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/c200f2ff-de7b-4b6b-a0a4-6560b772e6a0 AX3_1  R35 100k
+  (    1 Net-(R35-Pad1) )
+  (    2 -12V )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/c4dabe4f-fb7c-4dda-9289-30a1867c3754 POT6_5  VR10 B250k
+  (    1 Net-(R32-Pad1) )
+  (    2 Net-(R32-Pad1) )
+  (    3 Net-(J8-Pad3) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/c543011d-2db7-4721-8c89-a3b0bff30ea7 AX3_1  R40 1k5
+  (    1 Net-(R40-Pad1) )
+  (    2 Net-(F5-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/d4f0fd3a-96ec-4b8f-b2ef-0859abd289f5 AX3_1  R32 68k
+  (    1 Net-(R32-Pad1) )
+  (    2 Net-(U3B--) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/d81494fa-c2a5-452f-9c00-436ffa6b6059 TRIM6  VR12 1k
+  (    1 GND )
+  (    2 Net-(R40-Pad1) )
+  (    3 Net-(R40-Pad1) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/ec18c135-4ed3-4a07-85db-60dc9c0061c9 POT5_5  VR7 B100k
+  (    1 Net-(R27-Pad1) )
+  (    2 Net-(R24-Pad1) )
+  (    3 Net-(R22-Pad2) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/ee3eb2a7-a7e2-430a-a8f5-9aa18307f797 AX3_1  R33 1k
+  (    1 Net-(U3D--) )
+  (    2 Net-(J9-Pad3) )
+ )
+ ( /a70aca3e-d43d-4d52-ab17-6756372407ed/f2c13e91-cabf-4621-aabc-cc1fae5ed5e4 THONK  J7 SAW
+  (    1 GND )
+  (    2 unconnected-(J7-Pad2) )
+  (    3 SAW2 )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/05a03403-7cf2-4f80-b336-990a087f08dd AX3_1  R61 10k
+  (    1 Net-(Q10-Pad3) )
+  (    2 Net-(U5D--) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/06e874b2-d870-476c-9a82-808d3b16579e AX3_1  R68 22k
+  (    1 Net-(U4C--) )
+  (    2 Net-(Q14-Pad2) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/076c2f8e-cacb-4b4f-ada6-b4b0014ff32d AX3_1  R69 200k
+  (    1 Net-(U4D--) )
+  (    2 Net-(R69-Pad2) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/0851a936-9c79-4436-80e4-271a9c502d1e TO92  Q9 BC558
+  (    1 Net-(Q9-Pad1) )
+  (    2 Net-(U5B--) )
+  (    3 Net-(Q11-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/08685235-1223-4985-8134-cfbd0955d378 AX3_1  R76 1k
+  (    1 Net-(R76-Pad1) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/124b2fa9-78fe-43cd-95b4-d17c97710e0c TRIM6  VR13 10k
+  (    1 +12V )
+  (    2 Net-(R41-Pad1) )
+  (    3 Net-(R41-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/131a10c8-4dea-4600-82cf-181ff9ae0536 TO92  Q11 BC548
+  (    1 Net-(Q11-Pad1) )
+  (    2 Net-(U5B--) )
+  (    3 Net-(Q11-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/1548cd42-8ad6-434d-af8d-116e5f78a0b2 TO92  Q8 BC548
+  (    1 Net-(Q8-Pad1) )
+  (    2 Net-(Q6-Pad1) )
+  (    3 Net-(Q8-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/1676e909-d5b2-44d2-8d60-f357a2848a57 THONK  J14 FOLD_IN
+  (    1 GND )
+  (    2 Net-(J13-Pad3) )
+  (    3 Net-(J14-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/1ea1bd84-ed9d-4bec-b885-bf12aa41fcf1 AX3_1  R58 200k
+  (    1 Net-(U5D--) )
+  (    2 Net-(R58-Pad2) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/1f864481-b0f1-48db-93c7-b489997dcb66 DIP14  U4 TL074
+  (    1 Net-(R44-Pad1) )
+  (    2 Net-(U4A--) )
+  (    3 Net-(U4A-+) )
+  (    4 +12V )
+  (    5 Net-(U4B-+) )
+  (    6 Net-(U4B--) )
+  (    7 Net-(U4B--) )
+  (    8 Net-(Q14-Pad2) )
+  (    9 Net-(U4C--) )
+  (   10 GND )
+  (   11 -12V )
+  (   12 GND )
+  (   13 Net-(U4D--) )
+  (   14 Net-(R69-Pad2) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/23023da6-2a2d-488c-af7d-6a72ef34a787 AX3_1  R52 100k
+  (    1 Net-(U4A--) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/256a1a93-9b45-415a-9c5a-16ca4bb9159c DIP14  U5 TL074
+  (    1 Net-(R47-Pad1) )
+  (    2 Net-(U5A--) )
+  (    3 Net-(U5A-+) )
+  (    4 +12V )
+  (    5 Net-(U5B-+) )
+  (    6 Net-(U5B--) )
+  (    7 Net-(U5B--) )
+  (    8 Net-(Q10-Pad2) )
+  (    9 Net-(U5C--) )
+  (   10 GND )
+  (   11 -12V )
+  (   12 GND )
+  (   13 Net-(U5D--) )
+  (   14 Net-(R58-Pad2) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/28a84abc-1fc9-41e1-b4b7-8535c5f278c3 THONK  J16 FOLD_IN
+  (    1 GND )
+  (    2 Net-(J12-Pad3) )
+  (    3 Net-(J16-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/2ca98b00-4ce4-42ab-8fa4-c699172700d9 AX3_1  R48 100k
+  (    1 Net-(U5A-+) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/2f754957-7598-4691-86de-c9507774a390 THONK  J13 TRI
+  (    1 GND )
+  (    2 unconnected-(J13-Pad2) )
+  (    3 Net-(J13-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/35e46214-a7fd-4c79-aead-c89a5287cfe3 TO92  Q16 BC548
+  (    1 Net-(Q16-Pad1) )
+  (    2 Net-(Q14-Pad2) )
+  (    3 Net-(Q14-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/382553fb-8a27-4662-9710-658259fa71e6 TO92  Q7 BC548
+  (    1 Net-(Q7-Pad1) )
+  (    2 Net-(Q5-Pad1) )
+  (    3 Net-(Q7-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/3ac55872-0038-4ba8-a46b-b6b02aea3f7f TO92  Q15 BC548
+  (    1 Net-(Q15-Pad1) )
+  (    2 Net-(U4B--) )
+  (    3 Net-(Q13-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/3ad947e3-4058-45b8-b75d-4d516c8e774b AX3_1  R67 1k
+  (    1 Net-(R67-Pad1) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/445c30fa-e211-44a2-80f2-de48f3161ef9 AX3_1  R49 100k
+  (    1 Net-(R44-Pad1) )
+  (    2 Net-(U4A--) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/53d1a598-57ae-404e-8726-3e2c7c3702d8 AX3_1  R73 1k
+  (    1 Net-(R69-Pad2) )
+  (    2 Net-(J17-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/5571b8c8-5329-4ac7-b1e6-ed8e1c9f71a2 BOX1_3  C18 1u
+  (    1 Net-(C18-Pad1) )
+  (    2 Net-(U4A-+) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/590227a1-1720-4371-96e2-4315d83a8171 AX3_1  R55 20k
+  (    1 +12V )
+  (    2 Net-(Q9-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/5cae0cc3-8a03-4136-a6d9-503834bea88e BOX1_3  C19 1u
+  (    1 Net-(C19-Pad1) )
+  (    2 Net-(U5A-+) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/5e1cba37-7048-4f2c-b7ce-dba53bd43fbf BOX1_3  C21 2n2
+  (    1 Net-(C19-Pad1) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/6d9477f3-3fbf-4d4c-9a90-7c5496433466 TO92  Q10 BC558
+  (    1 Net-(Q10-Pad1) )
+  (    2 Net-(Q10-Pad2) )
+  (    3 Net-(Q10-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/6f3ab1d1-fb9e-4d46-9100-6be955404587 AX3_1  R43 1k
+  (    1 Net-(Q7-Pad3) )
+  (    2 Net-(C18-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/72eca3b3-b49a-49bf-be39-71080546ff71 AX3_1  R51 100k
+  (    1 Net-(R47-Pad1) )
+  (    2 Net-(U5A--) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/782ff8ca-f7ef-4560-a29d-085f5af6e55d AX3_1  R65 20k
+  (    1 +12V )
+  (    2 Net-(Q13-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/7909ca7e-4232-48ed-bb33-8b838a0da1cf POT6_5  VR16 B10k
+  (    1 Net-(R76-Pad1) )
+  (    2 Net-(R76-Pad1) )
+  (    3 Net-(U4B-+) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/7ddc0b37-afdf-409a-8aef-7125d26c40c2 AX3_1  R47 1k
+  (    1 Net-(R47-Pad1) )
+  (    2 Net-(J13-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/8084057f-dbc1-47f8-b751-92c9b87863f6 AX3_1  R71 10k
+  (    1 Net-(Q13-Pad3) )
+  (    2 Net-(U4C--) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/80ff818d-affb-4996-ab58-62f26aa2cf7e TO92  Q13 BC558
+  (    1 Net-(Q13-Pad1) )
+  (    2 Net-(U4B--) )
+  (    3 Net-(Q13-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/878ec65f-107c-41d8-ad3c-dcfc94090c92 AX3_1  R60 10k
+  (    1 Net-(Q11-Pad3) )
+  (    2 Net-(U5C--) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/901c1cfd-18ea-406b-beba-4bace34f8379 TO92  Q6 BC548
+  (    1 Net-(Q6-Pad1) )
+  (    2 SAW2 )
+  (    3 +12V )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/904c5fa7-ab8e-4d5b-9c78-2ac9bf48980f THONK  J15 FOLD_OUT
+  (    1 GND )
+  (    2 unconnected-(J15-Pad2) )
+  (    3 Net-(J15-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/9501f810-9f5a-4757-a488-d8af74b0bd88 TO92  Q5 BC548
+  (    1 Net-(Q5-Pad1) )
+  (    2 SAW1 )
+  (    3 +12V )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/9b9c8bd5-7d9d-48ea-afd0-f0ed8674ea74 AX3_1  R64 20k
+  (    1 -12V )
+  (    2 Net-(Q12-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/a0ffe830-9445-47bf-b102-147cb5c88dd2 AX3_1  R42 10k
+  (    1 Net-(R42-Pad1) )
+  (    2 Net-(Q8-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/a2a2c0a1-72d2-4a2f-ba54-4804b1208a5d AX3_1  R70 51k
+  (    1 Net-(J16-Pad3) )
+  (    2 Net-(U4B-+) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/a2fd62c2-281a-4c20-b23a-122cb945e175 AX3_1  R59 51k
+  (    1 Net-(J14-Pad3) )
+  (    2 Net-(U5B-+) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/abbdc0c8-abda-4fd3-b76c-69ff6072b9ec AX3_1  R46 100k
+  (    1 Net-(U4A-+) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/adcb1f89-4428-4d44-aa8c-13741f6ed559 AX3_1  R75 20k
+  (    1 -12V )
+  (    2 Net-(Q16-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/b0f8daaf-33c5-48dd-8d86-79214373d3e3 TO92  Q14 BC558
+  (    1 Net-(Q14-Pad1) )
+  (    2 Net-(Q14-Pad2) )
+  (    3 Net-(Q14-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/bb2b9fc8-53e1-4f80-a50f-9c540755856d AX3_1  R63 20k
+  (    1 -12V )
+  (    2 Net-(Q11-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/bc778a82-120b-4a12-8355-42fa0b83de2a AX3_1  R50 10k
+  (    1 Net-(Q7-Pad1) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/bf18940e-3635-4fd7-9fdb-13a3f7c22fc9 TO92  Q12 BC548
+  (    1 Net-(Q12-Pad1) )
+  (    2 Net-(Q10-Pad2) )
+  (    3 Net-(Q10-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/c14709ce-e2ec-4713-a9a7-e0babd921f12 AX3_1  R74 20k
+  (    1 -12V )
+  (    2 Net-(Q15-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/ca848636-8195-41b5-84cf-ceb004705fe0 TRIM6  VR14 10k
+  (    1 +12V )
+  (    2 Net-(R42-Pad1) )
+  (    3 Net-(R42-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/cb7d2b6a-2bf4-4ef1-9ed9-1fbd2a8e05e6 AX3_1  R66 20k
+  (    1 +12V )
+  (    2 Net-(Q14-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/d556d95a-ea33-451f-9791-1b9ac5306fc3 BOX1_3  C20 2n2
+  (    1 Net-(C18-Pad1) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/d5ce23c1-719a-48fb-be79-b18ed03e8efc AX3_1  R62 1k
+  (    1 Net-(R58-Pad2) )
+  (    2 Net-(J15-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/e06f8371-2e32-436e-a63c-006e271f78c4 AX3_1  R57 22k
+  (    1 Net-(U5C--) )
+  (    2 Net-(Q10-Pad2) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/e1c182fd-bb74-4edd-9ed4-205034bbff86 POT6_5  VR15 B10k
+  (    1 Net-(R67-Pad1) )
+  (    2 Net-(R67-Pad1) )
+  (    3 Net-(U5B-+) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/e2259557-0384-4977-a72b-c6b40657cb47 AX3_1  R45 1k
+  (    1 Net-(Q8-Pad3) )
+  (    2 Net-(C19-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/eb3d4790-53c7-4702-a5e3-256c2192c238 AX3_1  R41 10k
+  (    1 Net-(R41-Pad1) )
+  (    2 Net-(Q7-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/ed2d2b70-a027-4979-8d7b-487c114ba515 AX3_1  R54 100k
+  (    1 Net-(U5A--) )
+  (    2 GND )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/ee10974d-1983-4e14-bf41-4bc6169229a8 AX3_1  R44 1k
+  (    1 Net-(R44-Pad1) )
+  (    2 Net-(J12-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/ef7d2bd1-94b9-4b3f-a53d-b165d06c66b5 AX3_1  R56 20k
+  (    1 +12V )
+  (    2 Net-(Q10-Pad1) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/f1cf5ef7-e9ff-4edb-810f-5f812cdb8c9b THONK  J17 FOLD_OUT
+  (    1 GND )
+  (    2 unconnected-(J17-Pad2) )
+  (    3 Net-(J17-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/f4c4ff40-7314-4879-8879-01371a412029 AX3_1  R72 10k
+  (    1 Net-(Q14-Pad3) )
+  (    2 Net-(U4D--) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/fc70304f-9cc7-4fc4-88cf-6665bd9ebf73 THONK  J12 TRI
+  (    1 GND )
+  (    2 unconnected-(J12-Pad2) )
+  (    3 Net-(J12-Pad3) )
+ )
+ ( /57b3c43e-abd7-411e-b457-143f01395f01/fcee40d0-8e54-482e-a5e2-5bc4b50101b8 AX3_1  R53 10k
+  (    1 Net-(Q8-Pad1) )
+  (    2 GND )
+ )
+)
+*
