@@ -1,0 +1,26 @@
+Board Params
+Hole Spacing	2.54
+U	44.45	aka 1.75 inches
+hp	5.08
+Panel Hole	3.2
+
+
+Thonk Params
+Height	10.16
+Width	7.62
+Hole Diameter	6.3
+Bottom Offset	3.38
+Top Offset	4.92
+
+Tayda Pots
+Tall Pot Hole Diameter	6.3
+Tall Pot Height	12.7
+Tall Pot Width	12.7
+Tall Pot Bottom Offset	7
+Thick Pot Hole Diameter	7.1
+Thick Pot Height	10.16
+Thick Pot Width	12.7
+Thick Pot Bottom Offset	7.5
+
+Misc.
+LED Hole
